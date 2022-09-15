@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/mnu_profile"
+        android:icon="@drawable/ic_black_user"
+        android:title="@string/profile" />
+        <item
+            android:id="@+id/mnu_reports"
+            android:icon="@drawable/ic_black_book_open"
+            android:checked="true"
+            android:title="@string/mnu_option_reports_title" />
+        <item
+            android:id="@+id/mnu_notifications"
+            android:icon="@drawable/ic_black_bell"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/mnu_settings"
+            android:icon="@drawable/ic_black_settings"
+            android:title="@string/settings" />
+        <item
+        android:id="@+id/mnu_donate"
+        android:icon="@drawable/ic_gray_coffee"
+        android:title="@string/donate" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnu_archived"
+            android:icon="@drawable/ic_black_archive"
+            android:title="@string/archived" />
+        <item
+            android:id="@+id/mnu_stats"
+            android:icon="@drawable/ic_black_bar_chart_alt"
+            android:title="@string/statistics" />
+    </group>
+
+<!--    <group-->
+<!--        android:id="@+id/group_get"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/mnu_shop"-->
+<!--            android:icon="@drawable/ic_black_shopping_bag"-->
+<!--            android:title="@string/mnu_option_shop_fragment" />-->
+<!--    </group>-->
+</menu>
